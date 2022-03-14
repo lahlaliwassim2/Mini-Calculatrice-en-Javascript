@@ -12,30 +12,30 @@
                 <section class="calcul">
                    
                         <form> 
-                            <input type="text" class="scren" >  
+                            <input  id="screen" type="text" >  
                          </form>
                          <div class="butons">
-                            <button type="button" class="btn btn-a"data-num="*">*</button>
-                            <button type="button" class="btn btn-a"data-num="/">/</button>
-                            <button type="button" class="btn btn-a"data-num="-">-</button>
-                            <button type="button" class="btn btn-a"data-num="+">+</button>
+                            <button  type="button" class="btn btn-a" onclick=" opert('*')">*</button>
+                            <button type="button" class="btn btn-a" onclick=" opert('/')">/</button>
+                            <button type="button" class="btn btn-a" onclick=" opert('+')">+</button>
+                            <button type="button" class="btn btn-a" onclick=" opert('-')">-</button>
                             
                          
-                            <button type="button" class="btn btn-b"data-num="9">9</button>
-                            <button type="button" class="btn btn-b"data-num="8">8</button>
-                            <button type="button" class="btn btn-b"data-num="7">7</button>
-                            <button type="button" class="btn btn-b"data-num="6">6</button>
-                            <button type="button" class="btn btn-b"data-num="5">5</button>
-                            <button type="button" class="btn btn-b"data-num="4">4</button>
-                            <button type="button" class="btn btn-b"data-num="3">3</button>
-                            <button type="button" class="btn btn-b"data-num="2">2</button>
-                            <button type="button" class="btn btn-b"data-num="1">1</button>
-                            <button type="button" class="btn btn-b"data-num="0">0</button>
-                            <button type="button" class="btn btn-b"data-num=".">.</button>
+                            <button type="button" class="btn btn-b" onclick="affichage('9')" >9</button>
+                            <button type="button" class="btn btn-b" onclick="affichage('8')" >8</button>
+                            <button type="button" class="btn btn-b" onclick="affichage('7')" >7</button>
+                            <button type="button" class="btn btn-b" onclick="affichage('6')" >6</button>
+                            <button type="button" class="btn btn-b" onclick="affichage('5')" >5</button>
+                            <button type="button" class="btn btn-b" onclick="affichage('4')" >4</button>
+                            <button type="button" class="btn btn-b" onclick="affichage('3')" >3</button>
+                            <button type="button" class="btn btn-b" onclick="affichage('2')" >2</button>
+                            <button type="button" class="btn btn-b" onclick="affichage('1')" >1</button>
+                            <button type="button" class="btn btn-b" onclick="affichage('0')" >0</button>
+                            <button type="button" class="btn btn-b" onclick="affichage('.')" >.</button>
 
                             
-                            <button type="button" class="btn btn-c">=</button>
-                            <button type="button" class="btn btn-clear">C</button>
+                            <button type="button" class="btn btn-c" onclick="calcul(stock)"  >=</button>
+                            <button type="button" class="btn btn-clear" onclick="effacer()" >C</button>
 
 
 
